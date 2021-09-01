@@ -27,13 +27,13 @@ async def on_message(message):
   if message.content.startswith('-hello'):
     await message.channel.send('Hi there!')
 
-  if message.content.startswith('-good-morning'):
+  if message.content.startswith('-good morning'):
     await message.channel.send('Good morning!')
 
-  if message.content.startswith('-good-afternoon'):
+  if message.content.startswith('-good afternoon'):
     await message.channel.send('Good afternoon!')
 
-  if message.content.startswith('-good-evening'):
+  if message.content.startswith('-good evening'):
     await message.channel.send('Good evening!')
 
   if message.content.startswith('-bye'):
@@ -88,16 +88,16 @@ async def on_message(message):
 
 #news
   api = NewsApiClient(api_key=os.environ['NewsAPI'])
-  if message.content.startswith('-news-source-'):
+  if message.content.startswith('-news source'):
     source = message.content[13:]
     await message.channel.send(str(api.get_top_headlines(sources=source))[:2000])
 
-  if message.content.startswith('-news-about-'):
-    search = message.content[12:]
+  if message.content.startswith('-news about'):
+    search = message.content[11:]
     await message.channel.send(str(api.get_everything(q=search))[:2000])
 
 #stocks
-  if message.content.startswith('-stock-'):
+  if message.content.startswith('-stock'):
     stock = yf.Ticker(message.content[7:])
     await message.channel.send(stock.history(period = '5d'))
 
