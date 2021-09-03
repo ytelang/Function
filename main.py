@@ -64,7 +64,7 @@ async def on_message(message):
       global humidity
       humidity = main['humidity']
       global pressure
-      pressure = main['pressure']
+      pressure = round(main['pressure']/10)
       global report
       report = data['weather']
       await message.channel.send('Location set!')
@@ -81,7 +81,7 @@ async def on_message(message):
     await message.channel.send('Humidity is at ' + str(humidity) + '%.')
 
   if message.content.startswith('-pressure'):
-    await message.channel.send('Pressure is at ' + str(pressure) + ' atm.')
+    await message.channel.send('Pressure is at ' + str(pressure) + ' kPa.')
     
   if message.content.startswith('-report'):
     await message.channel.send('Current report: ' + str(report[0]['description']) + '.')
