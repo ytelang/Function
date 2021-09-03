@@ -5,7 +5,7 @@ An open-source Discord bot with everyday functionality.
 Constantly having to search for commonly used pieces of information in different places can be frustrating, so make it easy and do everything in your own Discord server!
 - Add the bot to your server [here](https://discord.com/api/oauth2/authorize?client_id=864234598191202335&permissions=259846043712&scope=bot%20applications.commands).
 - Check out the code in action on Replit [here](https://replit.com/@YashT11/FunctionDiscordBot#main.py) (always running!). 
-- [![Run on Repl.it](https://repl.it/badge/github/YashTelang/Function)](https://repl.it/github/YashTelang/Function) Clone and run the code yourself! Run command: *python main.py*.
+- [![Run on Repl.it](https://repl.it/badge/github/YashTelang/Function)](https://repl.it/github/YashTelang/Function) Clone and run the code yourself! Run command: `python main.py`.
 
 ## Commands
 
@@ -41,6 +41,9 @@ Constantly having to search for commonly used pieces of information in different
 - [newsapi-python](https://github.com/mattlisiv/newsapi-python)
 - [yfinance](https://github.com/ranaroussi/yfinance)
 - [Flask](https://palletsprojects.com/p/flask/)
+
+## License
+Provided under the [MIT License](https://github.com/YashTelang/Function/blob/master/LICENSE).
 
 ## Contact
 Feel free to give suggestions or contact me at ytelang11@gmail.com!
