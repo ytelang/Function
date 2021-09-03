@@ -1,3 +1,4 @@
+![Function_](https://user-images.githubusercontent.com/87334808/131955642-16f62d1b-2dfc-4cdb-9b89-278679c91616.png)
 # Function
 An open-source Discord bot with everyday functionality.
 
