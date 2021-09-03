@@ -25,7 +25,7 @@ Constantly having to search for commonly used pieces of information in different
 - `-weather`: Gives the current temperature in °F, humidity, pressure, and report.
 - `-temperature`: Gives the current temperature in °F.
 - `-humidity`: Gives the current humidity in %.
-- `-pressure`: Gives the current pressure in atm.
+- `-pressure`: Gives the current pressure in kPa.
 - `-report`: Gives the current weather report.
 
 ###### News
