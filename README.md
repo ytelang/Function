@@ -46,4 +46,4 @@ Constantly having to search for commonly used pieces of information in different
 Provided under the [MIT License](https://github.com/YashTelang/Function/blob/master/LICENSE).
 
 ## Contact
-Feel free to give suggestions or contact me at ytelang11@gmail.com!
+Feel free to fork the repository, give suggestions, or contact me at ytelang11@gmail.com!
