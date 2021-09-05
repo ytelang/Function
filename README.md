@@ -2,7 +2,7 @@
 # Function
 An open-source Discord bot with everyday functionality.
 
-Constantly having to search for commonly used pieces of information in different places can be frustrating, so make it easy and do everything in your own Discord server!
+Constantly having to search for commonly used pieces of information can be frustrating, so make it easy and do everything in your own Discord server!
 - Add the bot to your server [here](https://discord.com/api/oauth2/authorize?client_id=864234598191202335&permissions=259846043712&scope=bot%20applications.commands).
 - Check out the code in action on Replit [here](https://replit.com/@YashT11/FunctionDiscordBot#main.py) (always running!). 
 - [![Run on Repl.it](https://repl.it/badge/github/YashTelang/Function)](https://repl.it/github/YashTelang/Function) Clone and run the code yourself! Run command: `python main.py`.
